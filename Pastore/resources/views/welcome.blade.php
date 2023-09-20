@@ -57,199 +57,126 @@
 
     <!-- icone -->
 
-    <div class="container container2 ">
-        <div class="row ">
-            <div class="mb-8">
-                <h1 class="titoloicone"><b>I nostri servizi</b></h1>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-md-3 col-12  text-center my-2">
-                <div class="card border-0">
-                    <div class="d-flex justify-content-center">
-                        <img src="/media/icone2/fuoco.png" class="card-img-top img-custom1" alt="...">
-                    </div>
-                    <div class="card-body1 mt-4">
-                        <h5 class="card-title">Antincendio</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <div>
-                        <button class="button2"><a href="indexantincendio.html">Scopri di più </a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-12  text-center my-2">
-                <div class="card border-0">
-                    <div class="d-flex justify-content-center">
-                        <img src="/media/immagini/vettoriali4.png" class="card-img-top img-custom2" alt="...">
-                    </div>
-                    <div class="card-body1 mt-4">
-                        <h5 class="card-title">Progettazione - Direzioni Lavori</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <div>
-                        <button class="button2"><a href="#">Scopri di più </a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-12  text-center my-2">
-                <div class="card border-0">
-                    <div class="d-flex justify-content-center">
-                        <img src="/media/icone2/catasto.png" class="card-img-top img-custom3" alt="...">
-                    </div>
-                    <div class="card-body1 mt-4">
-                        <h5 class="card-title">Catasto</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <div>
-                        <button class="button2"><a href="#">Scopri di più </a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-12  text-center my-2">
-                <div class="card border-0">
-                    <div class="d-flex justify-content-center">
-                        <img src="/media/icone2/Successo.png" class="card-img-top img-custom4" alt="...">
-                    </div>
-                    <div class="card-body1 mt-4">
-                        <h5 class="card-title">Progettazione Energetica</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <div>
-                        <button class="button2"><a href="#">Scopri di più </a></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container container2 ">
-        <div class="row justify-content-center">
-            <div class="col-md-3 col-12  text-center ">
-                <div class="card border-0">
-                    <div class="d-flex justify-content-center">
-                        <img src="/media/icone2/sicurezza.png" class="card-img-top img-custom1" alt="...">
-                    </div>
-                    <div class="card-body1 mt-4">
-                        <h5 class="card-title">Coordinamento Sicurezza</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <div>
-                        <button class="button2"><a href="#">Scopri di più </a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-12  text-center my-2">
-                <div class="card border-0">
-                    <div class="d-flex justify-content-center">
-                        <img src="/media/icone2/Attrarre .png" class="card-img-top img-custom2" alt="...">
-                    </div>
-                    <div class="card-body1 mt-4">
-                        <h5 class="card-title">BIM</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <div>
-                        <button class="button2"><a href="#">Scopri di più </a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-12  text-center my-2">
-                <div class="card border-0">
-                    <div class="d-flex justify-content-center">
-                        <img src="/media/icone2/Risparmio.png" class="card-img-top img-custom3" alt="...">
-                    </div>
-                    <div class="card-body1 mt-4">
-                        <h5 class="card-title">Assistenza amministratori di condominio</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <div>
-                        <button class="button2"><a href="#">Scopri di più </a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-12  text-center my-2">
-                <div class="card border-0">
-                    <div class="d-flex justify-content-center">
-                        <img src="/media/icone2/Successo.png" class="card-img-top img-custom4" alt="...">
-                    </div>
-                    <div class="card-body1 mt-4">
-                        <h5 class="card-title">Perizie di stima</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <div>
-                        <button class="button2"><a href="#">Scopri di più </a></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container container2 ">
-        <div class="row justify-content-center">
-            <div class="col-md-3 col-12  text-center ">
-                <div class="card border-0">
-                    <div class="d-flex justify-content-center">
-                        <img src="/media/icone2/Mano.png" class="card-img-top img-custom1" alt="...">
-                    </div>
-                    <div class="card-body1 mt-4">
-                        <h5 class="card-title">Consulenze tecniche di parte</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <div>
-                        <button class="button2"><a href="#">Scopri di più </a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-12  text-center my-2">
-                <div class="card border-0">
-                    <div class="d-flex justify-content-center">
-                        <img src="/media/icone2/Attrarre .png" class="card-img-top img-custom2" alt="...">
-                    </div>
-                    <div class="card-body1 mt-4">
-                        <h5 class="card-title">Rilievi celerimetrici</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <div>
-                        <button class="button2"><a href="#">Scopri di più </a></button>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="col-md-3 col-12  text-center my-2">
-                <div class="card border-0">
-                    <div class="d-flex justify-content-center">
-                        <img src="./icone2/Risparmio.png" class="card-img-top img-custom3" alt="...">
-                    </div>
-                    <div class="card-body1 mt-4">
-                        <h5 class="card-title">Assistenza amministratori di condominio</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <div>
-                        <button class="button2"><a href="#">Scopri di più </a></button>
-                    </div>
-                </div>
-            </div> -->
-            <!-- <div class="col-md-3 col-12  text-center my-2">
-                <div class="card border-0">
-                    <div class="d-flex justify-content-center">
-                        <img src="./icone2/Successo.png" class="card-img-top img-custom4" alt="...">
-                    </div>
-                    <div class="card-body1 mt-4">
-                        <h5 class="card-title">Perizie di stima</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <div>
-                        <button class="button2"><a href="#">Scopri di più </a></button>
-                    </div>
-                </div>
-            </div> -->
-        </div>
-    </div>
+    
 
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="mb-8">
+                    <h1 class="titoloicone"><b>I nostri servizi</b></h1>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container">
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="/media/ufficioumb/cowo1.jpg" alt="">
+                        <div class="text-center p-4">
+
+                            <h5 class="lh-base mb-0">Direzione Lavori</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-warning mb-2">Direzione Lavori</p>
+                            <h5 class="lh-base mb-3">clicca clicca</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-warning rounded-circle mx-1" href="/media/ufficioumb/cowo1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-warning rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="/media/ufficioumb/cowo1.jpg" alt="">
+                        <div class="text-center p-4">
+                            <h5 class="lh-base mb-0">Coordinamento Sicurezza</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-warning mb-2">Coordinamento Sicurezza</p>
+                            <h5 class="lh-base mb-3">clicca clicca</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-warning rounded-circle mx-1" href="/media/ufficioumb/cowo1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-warning rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="/media/ufficioumb/cowo1.jpg" alt="">
+                        <div class="text-center p-4">
+                            
+                            <h5 class="lh-base mb-0">Catasto</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-warning mb-2">Catasto</p>
+                            <h5 class="lh-base mb-3">clicca clicca</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-warning rounded-circle mx-1" href="/media/ufficioumb/cowo1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-warning rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="/media/ufficioumb/cowo1.jpg" alt="">
+                        <div class="text-center p-4">
+                           
+                            <h5 class="lh-base mb-0">Urbanistica</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-warning mb-2">Urbanistica</p>
+                            <h5 class="lh-base mb-3">clicca clicca</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-warning rounded-circle mx-1" href="/media/ufficioumb/cowo1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-warning rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="/media/ufficioumb/cowo1.jpg" alt="">
+                        <div class="text-center p-4">
+                            
+                            <h5 class="lh-base mb-0">Antincendio</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-warning mb-2">Antincendio</p>
+                            <h5 class="lh-base mb-3">clicca clicca</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-warning rounded-circle mx-1" href="/media/ufficioumb/cowo1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-warning rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="/media/ufficioumb/cowo1.jpg" alt="">
+                        <div class="text-center p-4">
+                            
+                            <h5 class="lh-base mb-0">Amministrazione Condominiale</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-warning mb-2">Amministrazione Condominiale</p>
+                            <h5 class="lh-base mb-3">clicca clicca</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-warning rounded-circle mx-1" href="/media/ufficioumb/cowo1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-warning rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     <!-- fine icone -->
 
 
     <!-- carosello -->
 
 
-    <div class="container-fluid my-5 d-none d-md-block ">
+    {{-- <div class="container-fluid my-5 d-none d-md-block ">
         <div class="row">
             <div class="col-12 my-3 ">
                 <!-- Swiper -->
@@ -274,7 +201,7 @@
         <div class="col-12 position-relative pt-5   ">
             <div class="swiper-pagination "></div>
         </div>
-    </div>
+    </div> --}}
 
 
     <!-- carosello mobile -->
@@ -298,122 +225,68 @@
 
 
 
+   {{-- footer --}}
+   <div class="container-fluid bg-dark text-secondary footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-light mb-4">Indirizzo</h5>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Via Teodoro, 38, 70132 Bari, Puglia</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+39 3456908223</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>geom.pastore@gmail.com</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-square  btn-outline-secondary rounded-circle me-2" href="https://www.facebook.com/geompastore"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square  btn-outline-secondary rounded-circle me-2" href="https://www.linkedin.com/in/umberto-pastore-7640b954"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <!-- <div class="col-lg-3 col-md-6">
+                <h5 class="text-light mb-4">Services</h5>
+                <a class="btn btn-link" href="">Business Security</a>
+                <a class="btn btn-link" href="">Fire Detection</a>
+                <a class="btn btn-link" href="">Alarm Systems</a>
+                <a class="btn btn-link" href="">CCTV & Video</a>
+                <a class="btn btn-link" href="">Smart Home</a>
+            </div> -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-light mb-4">Link utili</h5>
+                <a class="btn btn-link" href="">Chi siamo</a>
+                <a class="btn btn-link" href="">Contatti</a>
+                <a class="btn btn-link" href="">Servizi</a>
+                <a class="btn btn-link" href="">Richiedi un preventivo</a>
+            </div>
+            <!-- <div class="col-lg-3 col-md-6">
+                <h5 class="text-light mb-4">Newsletter</h5>
+                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <div class="position-relative w-100">
+                    <input class="form-control bg-transparent border-secondary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                </div>
+            </div> -->
+        </div>
+    </div>
+</div>
+
+   {{-- fine footer --}}
 
 
-
-
-    <!-- sfondo blu -->
-    <div class=" container-fluid container5 my-5">
-        <div class="row">
-            <div class="testiBlu">
-                <h3 class="titoloBlu">Lorem ipsum dolor sit amet.</h3>
-                <h2 class="titoloBlu2">Lorem ipsum dolor sit.</h2>
-                <p class="testoBlu">Lorem. <b>Lorem.</b>Lorem ipsum dolor sit amet. <b>Lorem ipsum dolor sit.</b>. <br>
-                    Lorem ipsum dolor sit amet. </p>
+       <!-- Copyright Start -->
+       <div class="container-fluid py-4" style="background: #000000;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom  text-warning" href="#">Geometra Umberto Pastore</a>, All Right Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                Distributed By <a class="border-bottom text-warning" href="#" >OremConsulting</a>
+                </div>
             </div>
         </div>
     </div>
-    <!-- fine sfondo blu -->
+    <!-- Copyright End -->
 
 
-
-
-    <!--footer ultima parte  -->
-    <footer class="section ">
-        <div class="container">
-            <div class="row ">
-                <div class="col-12 col-md-4 d-flex justify-content-center">
-
-                    <div class="container-logo-footer w-container d-flex flex-column">
-                        <img src="/media/immagini/Mysarma_Logo_W.png" alt="logomysarma" class="logo-mysarma-footer">
-                        <img src="/media/immagini/bandieraitaliana.png" alt="bandieraitaliana" class="image-2 mt-3">
-                        <div class="text-footer-logo">Il welfare aziendale tutto <br> italiano a portata di PMI.
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-6 col-md-2">
-                    <h5 class="h5-white">Chi siamo</h5>
-                    <a class="footerlink" href="#">Vision & Mission</a>
-                    <a class="footerlink" href="#">Il gruppo Omninext</a>
-                    <a class="footerlink" href="#">Contattaci</a>
-                </div>
-                <div class="col-6 col-md-2">
-                    <h5 class="h5-white">Soluzioni welfare</h5>
-                    <a class="footerlink" href="#">Flexible benefit</a>
-                    <a class="footerlink" href="#">Premio di risultato</a>
-                    <a class="footerlink" href="#">Performance <br> Management</a>
-                </div>
-                <div class="col-6 col-md-2 column-4 ">
-                    <h5 class="h5-white">Seguici su</h5>
-                    <div class="div-block-3">
-                        <img class="imgicon" src="/media/immagini/Linkedin_Icon2x.png" alt="iconlinkedin">
-                        <a class="footerlink" href="#">Linkedin</a>
-                    </div>
-                </div>
-                <div class="col-6 col-md-2 ">
-                    <a class="h5-bluref" href="#">
-                        <h5 class="h5-blu">Piano GO</h5>
-                    </a>
-                    <a class="h5-bluref" href="#">
-                        <h5 class="h5-blu">Piano PRO!</h5>
-                    </a>
-                    <a class="h5-bluref" href="#">
-                        <h5 class="h5-blu h5-blu3">Diventa partner</h5>
-                    </a>
-                </div>
-                <div class="titolifinali w-100">
-                </div>
-                <div class="col-12 d-flex justify-content-between">
-
-                    <p class="titoloFoo">Copyright © MySarma srl - Tutti i diritti riservati</p>
-                    <p class="titoloFoo2">Privacy e Cookie Policy</p>
-
-                </div>
-            </div>
-        </div>
-
-    </footer>
-
-
-
-
-
-
-
-
-
-
-    <!-- card -->
-
-    <!-- <div class="container my-5">
-        <div class="row ">
-            <div class="col-12 col-md-6 ">
-                <div class="tariffa">
-                    <div class="pianogo">
-                        <h1 class="text-center"><b>Piano GO!</b></h1>
-                        <div class="pianogo2 ">
-                            <p class="text-center">a partire da</p>
-                            <div class="euro1">
-                                <p class="text-center"><b>€12,50</b></p>
-                            </div>
-                            <div class="anno">
-                                <p class="text-center">all'anno / per utente <img src="./immagini/Vector.png"
-                                        alt=""></p>
-                            </div>
-                            <hr class="linea">
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-12 col-md-6">
-                </div>
-
-            </div>
-        </div> -->
-
-
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-warning btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
 
