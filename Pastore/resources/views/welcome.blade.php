@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <!-- collegamento css -->
     <link rel="stylesheet" href="/style.css">
-    <!-- collegamento fontawesome -->
     <!-- link fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -29,33 +28,9 @@
 <body>
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary py-3">
-        <div class="container ">
-            <!-- <a class="navbar-brand" href="#">
-                <img class="logo" src="./immagini/logoPastore.png" alt="">
-            </a> -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class=" collapse navbar-collapse justify-content-center " id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item anim me-5">
-                        <a class="nav-link " href="#"><b>Chi siamo</b></a>
-                    </li>
-                    <li class="nav-item anim me-5">
-                        <a class="nav-link " href="#"><b>I nostri servizi</b></a>
-                    </li>
-                    <li class="nav-item anim me-5">
-                        <a class="nav-link " href="#"><b>Richiedi un preventivo</b></a>
-                    </li>
-                    <li class="nav-item anim me-5">
-                        <a class="nav-link " href="#"><b>Contatti</b></a>
-                    </li>
-                </ul>
-            </div>
-    </nav>
+    <x-navbar></x-navbar>
     <!-- fine navbar -->
+
 
 
 
@@ -106,7 +81,7 @@
             <div class="col-md-3 col-12  text-center my-2">
                 <div class="card border-0">
                     <div class="d-flex justify-content-center">
-                        <img src="/media/icone2/direzionelavori.png" class="card-img-top img-custom2" alt="...">
+                        <img src="/media/immagini/vettoriali4.png" class="card-img-top img-custom2" alt="...">
                     </div>
                     <div class="card-body1 mt-4">
                         <h5 class="card-title">Progettazione - Direzioni Lavori</h5>
