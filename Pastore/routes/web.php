@@ -1,7 +1,8 @@
 <?php
 
-use App\Http\Controllers\PublicContoller;
+
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PublicController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,19 +17,21 @@ use Illuminate\Support\Facades\Route;
 
 
 // route for homepage
-Route::get('/', [PublicContoller::class, 'home'])->name('homepage');  
+Route::get('/', [PublicController::class, 'home'])->name('homepage');  
 
 // route for about us
-Route::get('/about', [PublicContoller::class, 'about'])->name('about');  
+Route::get('/about', [PublicController::class, 'about'])->name('about');  
 
 // route for our service
-Route::get('/service', [PublicContoller::class, 'service'])->name('service'); 
+Route::get('/service', [PublicController::class, 'service'])->name('service'); 
 
 
 // route for contact
-Route::get('/contact', [PublicContoller::class, 'contact'])->name('contact'); 
+Route::get('/contact', [PublicController::class, 'contact'])->name('contact'); 
 
 // route for email
+Route::post('/contattami', [PublicController::class, 'contattami'])->name('contattami');
+
 
 
 
