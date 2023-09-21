@@ -23,9 +23,6 @@
                     <a class="nav-link " href="{{route('service')}}"><b>I nostri servizi</b></a>
                 </li>
                 <li class="nav-item anim me-5">
-                    <a class="nav-link " href="{{route('preventivo')}}"><b>Richiedi un preventivo</b></a>
-                </li>
-                <li class="nav-item anim me-5">
                     <a class="nav-link " href="{{route('contact')}}"><b>Contatti</b></a>
                 </li>
             </ul>
