@@ -28,5 +28,7 @@ Route::get('/service', [PublicContoller::class, 'service'])->name('service');
 // route for contact
 Route::get('/contact', [PublicContoller::class, 'contact'])->name('contact'); 
 
+// route for email
+
 
 
