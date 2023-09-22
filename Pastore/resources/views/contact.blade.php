@@ -20,29 +20,30 @@
                             <h1 class="display-5 mb-4">Contattaci</h1>
                         </div>
                         <p class="mb-4"> ciao ciao ciao ciao ciao </p>
-                        <form>
+                        <form method="POST" action="{{route('contattami')}}">
+                            @csrf
                             <div class="row g-3">
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="name" placeholder="Nome">
+                                        <input type="text" class="form-control" id="name" placeholder="Nome" name="name">
                                         <label for="name">Nome</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="email" class="form-control" id="email" placeholder="Email">
+                                        <input type="email" class="form-control" id="email" placeholder="Email" name="email">
                                         <label for="email">Email</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="subject" placeholder="Oggetto">
+                                        <input type="text" class="form-control" id="subject" placeholder="Oggetto" name="subject">
                                         <label for="subject">Oggetto</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a message here" id="Messaggio" style="height: 100px"></textarea>
+                                        <textarea class="form-control" placeholder="Leave a message here" id="Messaggio" style="height: 100px" name="messaggio"></textarea>
                                         <label for="message">Messaggio</label>
                                     </div>
                                 </div>
