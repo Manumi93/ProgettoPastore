@@ -36,8 +36,8 @@
 
 
     <!-- immagine dopo navbar -->
-    <div class="container-fluid container1 mb-6">
-        <div class="row align-items-center justify-content-end h-100 ">
+    <div class="container-fluid container1 mb-6 " >
+        <div class="row align-items-center justify-content-end h-100  " id="ombra">
             <div class="col-12 col-md-6 layoutNavbar">
                 <h3 id="prova" class="titoloparagrafo d-none d-md-block"><b>Geometra Umberto Pastore</b></h3>
                 <h3 class="titoloparagrafomobile d-block d-md-none"><b>lorem <br> aziendale <br> a portata di <br>

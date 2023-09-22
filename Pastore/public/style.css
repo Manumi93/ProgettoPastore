@@ -38,7 +38,7 @@ body {
 
 .navbar{
     position: fixed;
-    background-color: white;
+    background-color: transparent;
     width: 100%;
     z-index: 3;
     top: 0;
@@ -107,14 +107,22 @@ body {
 /* header */
 
 .container1{
-    background-image: url(/media/ufficioumb/ufficio1.jpg);
+    background-image: url(/media/ufficioumb/ufficio1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
     margin-top: 10vh;
     height: 180vh;
 
+
 }
+
+#ombra {
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.381);
+}
+
+
 
 
 .layoutNavbar{
