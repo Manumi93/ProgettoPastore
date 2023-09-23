@@ -1,6 +1,8 @@
 <?php
 
 
+use App\Mail\SendEmailGmail;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PublicController;
 
@@ -30,8 +32,20 @@ Route::get('/service', [PublicController::class, 'service'])->name('service');
 Route::get('/contact', [PublicController::class, 'contact'])->name('contact'); 
 
 // route for email
-Route::post('/contattami', [PublicController::class, 'contattami'])->name('contattami');
+Route::post('/sendEmail', [PublicController::class, 'sendEmail'])->name('sendEmail');
 
+
+// Route::get('/send-email', function() {
+//     try {
+        
+//         Mail::to('contatti.pastore@gmail.com')->send(new SendEmailGmail());
+//         return view('mail.success');
+    
+//     }catch (\Exception $e) {
+//         return view('mail.error');
+//     }
+
+// });
 
 
 

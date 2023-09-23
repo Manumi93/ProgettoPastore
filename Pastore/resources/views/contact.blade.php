@@ -20,7 +20,7 @@
                             <h1 class="display-5 mb-4">Contattaci</h1>
                         </div>
                         <p class="mb-4"> ciao ciao ciao ciao ciao </p>
-                        <form method="POST" action="{{route('contattami')}}">
+                        <form method="POST" action="{{route('sendEmail')}}">
                             @csrf
                             <div class="row g-3">
                                 <div class="col-md-6">

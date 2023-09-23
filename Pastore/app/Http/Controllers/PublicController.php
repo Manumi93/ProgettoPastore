@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Mail\Contattami;
+use App\Mail\SendEmailGmail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
@@ -28,18 +29,30 @@ class PublicController extends Controller
         return view('contact');
     }
 
-    public function contattami (Request $request) {
+    public function sendEmail (Request $request) {
         $name = $request->input('name');
         $email = $request->input('email');
         $subject = $request->input('subject');
         $messaggio = $request->input('messaggio');
 
-        $finalMail = new Contattami($name, $email, $subject, $messaggio);
+        $finalMail = [
+                'name' => $name,
+                'email' => $email,
+                'subject' => $subject,
+                'messaggio' => $messaggio
+        ];
 
+        Mail::send('mail.email', $finalMail, function($message) use ($finalMail){
 
+            $message->to('contatti.pastore@gmail.com')
+                    ->from($finalMail['email'], $finalMail['name'])
+                    ->subject($finalMail['subject']);
+        });
 
-        Mail::to($email)->send($finalMail);
+        // $finalMail = new SendEmailGmail($name, $email, $subject, $messaggio);
 
+        // Mail::to('contatti.pastore@gmail.com')->send($finalMail);
+        
         return redirect(route('contact'));
 
     }
